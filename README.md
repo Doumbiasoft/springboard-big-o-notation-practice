@@ -4,16 +4,18 @@ In this exercise, you’ll analyze expressions and code to figure out the time c
 ## Step One: Simplifying Expressions
 Simplify the following big O expressions as much as possible:
 
-**O(n + 10) -> O(n)
-O(100 * n) -> O(n)
-O(25) -> O(1)
-O(n^2 + n^3) -> O(n^3)
-O(n + n + n + n) -> O(n)
-O(1000 * log(n) + n) -> O(n)
-O(1000 * n * log(n) + n) -> O(n log n)
-O(2^n + n^2) -> O(2^n)
-O(5 + 3 + 1) -> O(1)
-O(n + n^(1/2) + n^2 + n * log(n)^10) -> O(n^2)**
+```javascript
+O(n + 10) => O(n)
+O(100 * n) => O(n)
+O(25) => O(1)
+O(n^2 + n^3) => O(n^3)
+O(n + n + n + n) => O(n)
+O(1000 * log(n) + n) => O(n)
+O(1000 * n * log(n) + n) => O(n log n)
+O(2^n + n^2) => O(2^n)
+O(5 + 3 + 1) => O(1)
+O(n + n^(1/2) + n^2 + n * log(n)^10) => O(n^2)
+```
 ## Step Two: Calculating Time Complexity
 Determine the time complexities for each of the following functions. If you’re not sure what these functions do, copy and paste them into the console and experiment with different inputs!
 
